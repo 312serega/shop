@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>maket</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="top-bar">
+            <div class="wrapper s-between">
+                <div class="top-bar__item"><i class="fas fa-phone-alt"></i> + 996 555 123 321</div>
+                <div class="top-bar__item"><i class="fas fa-paper-plane"></i> mail-mail@gmail.com</div>
+                <div class="top-bar__item">3-5 business day delivery & free returns</div>
+            </div>
+        </div>
+        <div class="wrapper s-between">
+            <img src="img/logo.png" alt="" class="header__logo">
+            <nav class="header__nav">
+                <ul class="header__menu d-flex">
+                    <li class="header__menu-item active">
+                        <a href="#" class="header__menu-link">Home</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">Shop</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">About</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">Blog</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__basket">
+                [ 0 ]
+            </div>
+        </div>
+    </header>
+    <section class="page-info">
+        <img src="./image/slide/slide-2.jpg" alt="" class="page-info__img">
+        <div class="page-info__text">
+            <div class="page-info__bc">
+                <a href="#" class="page-info__bc-item">home</a>
+                <a href="#" class="page-info__bc-item">cart</a>
+            </div>
+            <h1 class="page-info__title">MY CART</h1>
+        </div>
+    </section>
+    <section class="cart">
+        <div class="wrapper">
+            <div class="cart__header">
+                <span class="cart__header-name">Product name</span>
+                <span class="cart__header-Price">Price</span>
+                <span class="cart__header-Quantity">Quantity</span>
+                <span class="cart__header-total">Total</span>
+            </div>
+            <div class="cart__list">
+                <div class="cart__item d-flex">
+                    <div class="cart__delete">
+                        <a href="#">x</a>
+                    </div>
+                    <div class="cart__img">
+                        <img src="./image/products/broccoli.jpg" alt="">
+                    </div>
+                    <div class="cart__info">
+                        <h3>Bell Pepper</h3>
+                        <p>
+                            Far far away, behind the word mountains, far from the countries
+                        </p>
+                    </div>
+                    <div class="cart__price">
+                        $4.90
+                    </div>
+                    <div class="cart__quantity">
+                        <input type="text" class="cart__input">
+                    </div>
+                    <div class="cart__total">
+                        $4.90
+                    </div>
+                </div>
+                <div class="cart__item d-flex">
+                    <div class="cart__delete">
+                        <a href="#">x</a>
+                    </div>
+                    <div class="cart__img">
+                        <img src="./image/products/broccoli.jpg" alt="">
+                    </div>
+                    <div class="cart__info">
+                        <h3>Bell Pepper</h3>
+                        <p>
+                            Far far away, behind the word mountains, far from the countries
+                        </p>
+                    </div>
+                    <div class="cart__price">
+                        $4.90
+                    </div>
+                    <div class="cart__quantity">
+                        <input type="text" class="cart__input">
+                    </div>
+                    <div class="cart__total">
+                        $4.90
+                    </div>
+                </div>
+            </div>
+            <div class="cart-specification d-flex">
+                <div class="cart-specification__item">
+                    <div class="cart-specification__total">
+                        <h3>Coupon Code</h3>
+                        <p>Enter your coupon code if you have one</p>
+                        <form action="#" class="cart-specification__form">
+                            <label for="">Coupon code</label>
+                            <input type="text" class="cart-specification__input" placeholder="">
+                        </form>
+                    </div>
+                    <a href="" class="cart-specification__btn">Apply Coupon</a>
+                </div>
+                <div class="cart-specification__item">
+                    <div class="cart-specification__total">
+                        <h3>Estimate shipping and tax</h3>
+                        <p>Enter your coupon code if you have one</p>
+                        <form action="#" class="cart-specification__form">
+                            <label for="">Country</label>
+                            <input type="text" class="cart-specification__input" placeholder="">
+                            <label for="">State/Province</label>
+                            <input type="text" class="cart-specification__input" placeholder="">
+                            <label for="">Zip/Postal Code</label>
+                            <input type="text" class="cart-specification__input" placeholder="">
+                        </form>
+                    </div>
+                    <a href="" class="cart-specification__btn">Estimate</a>
+                </div>
+                <div class="cart-specification__item">
+                    <div class="cart-specification__total">
+                        <h3>Cart Totals</h3>
+                        <div class="cart-total">
+                            <div class="cart-total__item">
+                                <span>Subtotal</span><span>$20.60</span>
+                            </div>
+                            <div class="cart-total__item">
+                                <span>Delivery</span><span>$0.00</span>
+                            </div>
+                            <div class="cart-total__item">
+                                <span>Discount</span><span>$3.00</span>
+                            </div>
+                        </div>
+                        <div class="total-price">
+                            <span>TOTAL</span><span>$17.60</span>
+                        </div>
+                    </div>
+                    <a href="" class="cart-specification__btn">Proceed to Checkout</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="subcride">
+        <div class="wrapper d-flex">
+            <div class="subcride__item">
+                <h2 class="subcride__title">Subcride to our Newsletter</h2>
+                <span class="subcride__des">Get email updates About our</span>
+            </div>
+            <div class="subcride__item">
+                <form action="" class="subcride__form">
+                    <input type="text" class="subcride__input" placeholder="Enter email address">
+                    <button class="subcride__btn">subcride</button>
+                </form>
+            </div>
+            <a href="#" class="up">
+                <i class="fas fa-chevron-up"></i>
+            </a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__list d-flex">
+                <div class="footer__item">
+                    <h3 class="footer__title">
+                        Vegefoods
+                    </h3>
+                    <p class="footer__des">
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                    </p>
+                </div>
+                <div class="footer__item">
+                    <h3 class="footer__title">
+                        Menu
+                    </h3>
+                    <a href="#" class="footer__link">Shop</a>
+                    <a href="#" class="footer__link">About</a>
+                    <a href="#" class="footer__link">Journal</a>
+                    <a href="#" class="footer__link">Contact Us</a>
+                </div>
+                <div class="footer__item">
+                    <h3 class="footer__title">
+                        Help
+                    </h3>
+                    <a href="#" class="footer__link">shipping</a>
+                    <a href="#" class="footer__link">Returns</a>
+                    <a href="#" class="footer__link">terms</a>
+                    <a href="#" class="footer__link">Policy</a>
+                </div>
+                <div class="footer__item">
+                    <h3 class="footer__title">
+                        Have a Questions?
+                    </h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 203 fake st.mountain</li>
+                        <li><i class="fas fa-phone-alt"></i> +9959595155</li>
+                        <li><i class="fas fa-paper-plane"></i> info@mailcom.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__soc-link">
+                <a href="#" class="footer__soc-link-item"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="footer__soc-link-item"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="footer__soc-link-item"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>
